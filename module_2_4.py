@@ -16,7 +16,7 @@ for i in numbers:
     if i == 1:
         not_prime.append(i)
         primes.remove(i)
-
+        not_prime.remove(i)
 
 
 print(primes)
